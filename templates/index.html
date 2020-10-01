@@ -1,0 +1,17 @@
+<home>
+   <body>
+      <title>Plagiarism CHECK</title>
+      
+      <form action="http://localhost:5000" method="POST">
+
+         <p>Reference file : </p>
+         <p><textarea name="reference_file" rows="12" cols="100" autofocus>{{reference_file}}</textarea></p>
+         <p>Input file: </p>
+         <p><textarea name="query" rows="12" cols="100" autofocus>{{query}}</textarea></p>
+         <br>
+         <p><input type="submit" name="submit" value="CHECK FOR PLAGIARISM"></p>
+         <br>
+         <p><h3>{{output}}</h3></p>
+      </form>
+   </body>
+</home>
